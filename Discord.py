@@ -23,3 +23,5 @@ async def SendHomeEML(embedded):
 
 async def SendHomeMML(message):
     return await bot.get_channel(123456789123456789).send(content=discord.utils.escape_mentions(message))
+
+                            
